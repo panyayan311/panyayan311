@@ -20,5 +20,5 @@
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,react,nodejs)](https://skillicons.dev)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/panyayan311/panyayan311/output/snake-monokai.svg" alt="snake" />
+  <img src="https://raw.githubusercontent.com/panyayan311/panyayan311/refs/heads/output/snake-monokai.svg" alt="snake" />
 </p>
