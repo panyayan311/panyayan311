@@ -14,11 +14,11 @@
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=panyayan311&theme=monokai&utcOffset=9" />
 </p>
 
-
+<p align="center">
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=panyayan311&theme=tokyonight)](https://git.io/streak-stats)
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,react,nodejs)](https://skillicons.dev)
-
+</p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/panyayan311/panyayan311/refs/heads/output/snake-monokai.svg" alt="snake" />
 </p>
