@@ -1,0 +1,23 @@
+name: GitHub Profile Summary Cards
+on:
+  # 毎日0:15（UTC）に自動実行（他のワークフローと push がぶつからないよう少しずらす）
+  schedule:
+    - cron: "15 0 * * *"
+  # 手動実行も可能にする
+  workflow_dispatch:
+  # ※ push トリガーは付けない（PAT で push するため、付けると自分自身を呼び続ける）
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate summary cards
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # プライベートリポジトリも含めるため PAT を使用
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 9
